@@ -19,26 +19,16 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.4.1'
-
-
-
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-  gem 'activerecord-postgresql-adapter'
-end
-
-group :development, :test do
-  gem 'taps', '~> 0.3.24'
-  gem 'sqlite3'
-  gem 'spring'
-end
+gem 'pg'
+gem 'rails_12factor'
+gem 'taps', '~> 0.3.24'
+gem 'spring'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
-
+ruby "2.2.2"
 
  
 
