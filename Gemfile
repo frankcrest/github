@@ -21,15 +21,16 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.4.1'
 
 
-group :development, :test do
-  gem 'taps', '~> 0.3.24'
-  gem 'sqlite3'
-  gem 'spring'
-end
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+end
+
+group :development, :test do
+  gem 'taps', '~> 0.3.24'
+  gem 'sqlite3'
+  gem 'spring'
 end
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
