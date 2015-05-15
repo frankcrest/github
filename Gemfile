@@ -25,11 +25,12 @@ gem 'devise', '~> 3.4.1'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'activerecord-postgresql-adapter'
 end
 
 group :development, :test do
   gem 'taps', '~> 0.3.24'
-  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3'
   gem 'spring'
 end
 
