@@ -1,0 +1,1 @@
+{"klass":"Taps::Pull","database_url":"postgres://f3@localhost/f3_development","remote_url":"http://hello:goodbye@localhost:5000","session_uri":"/sessions/5041321704","stream_state":{},"completed_tables":[],"table_filter":null,"remote_tables_info":{}}
